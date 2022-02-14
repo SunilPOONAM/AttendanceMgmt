@@ -1,0 +1,91 @@
+﻿@{
+    ViewBag.Title = "ViewEmpDetails";
+    Layout = "~/Views/Shared/HeadLayout.cshtml";
+}
+
+@using System.Data;
+@using AttendenceMgmt.Models;
+<h2>ViewEmpDetails</h2>
+<span>Select Employee</span>
+<select id="EmpName" name="EmpName" class="form-control">
+    <option></option>
+</select>
+
+<div class="row" style="margin-top:2%">
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
+            <thead>
+                <tr>
+                    <th>Sr. No</th>
+                    <th>TimeIn</th>
+                    <th>Date</th>
+                    <th>TimeOut</th>
+
+                </tr>
+            </thead>
+            <tbody id="bdy">
+
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<script src="~/Resources/js/jquery-3.4.1.min.js"></script>
+<script>
+    $(document).ready(function () {
+
+        $.ajax({
+            type: "post",
+            url: "/Employee/BindDatalist",
+            data: {},
+            success: function (result) {
+
+                $.each(result, function (i) {
+                    // var name = data[i]["Name"];
+                    $("#EmpName").append($("<option></option>").val(result[i]['value']).html(result[i]['text']));
+
+
+                })
+
+
+            },
+
+
+        })
+    })
+    $('#EmpName').change(function () {
+        var EmpName = $('#EmpName').val();
+
+        $.ajax({
+            url: "/Employee/BindAttemdence",
+            method: "get",
+            data: { EmpName: EmpName, },
+           
+            success: function (result) {
+                $('#bdy').html(result);
+            }
+        })
+    })
+
+    //$("#emp").change(function () {
+    //    var a = $("#emp").val();
+
+    //    $.ajax({
+    //        type: "post",
+    //        url: "/Employee/BindAttemdence",
+    //        data: { A: a },
+    //        success: function (data) {
+    //            $("#cars").html("");
+    //            $.each(data, function (i) {
+    //                var name = data[i]["Name"];
+    //                //$("#cars").append($("<option></option>").val(data[i]['Name']).html(data[i]['Name']));
+
+    //            })
+
+
+    //        },
+
+
+    //    })
+    //})
+</script>

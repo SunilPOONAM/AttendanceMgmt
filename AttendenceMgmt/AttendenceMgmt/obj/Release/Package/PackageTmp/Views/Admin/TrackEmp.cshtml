@@ -1,0 +1,82 @@
+﻿
+@{
+    ViewBag.Title = "TrackEmp";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+
+<h2>Employee Location</h2>
+<script src="~/Resources/js/jquery-3.4.1.min.js"></script>
+<style>
+    #map {
+        height: 700px;
+        width: 100%;
+        background-color: grey;
+    }
+</style>
+<div class="row">
+    <span>Select Employee</span>
+    
+    <input type="text" list="cars" id="emp"/>
+<datalist id="cars">
+   
+</datalist>
+    <span>Select Date:</span><span>From:</span><input type="date" id="dt1"/><span>To:</span><input type="date" id="dt2" />&nbsp;
+</div>
+<div id="map"></div>
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC6Kj5JFoe1f3Wara_6zjyDMV8r973-e7c&sensor=false"></script>
+<script type="text/javascript">
+        var locations;
+        function InitMap() {
+            var map = new google.maps.Map(document.getElementById('map'), {
+                zoom: 16,
+                center: new google.maps.LatLng(26.871173, 81.034609),
+                mapTypeId: google.maps.MapTypeId.ROADMAP
+            });
+            var infowindow = new google.maps.InfoWindow();
+            var marker, i;
+            for (i = 0; i < locations.length; i++) {
+                marker = new google.maps.Marker({
+                    position: new google.maps.LatLng(locations[i][1], locations[i][2]),
+                    map: map
+                });
+                google.maps.event.addListener(marker, 'click', (function (marker, i) {
+                    return function () {
+                        infowindow.setContent(locations[i][0]);
+                        infowindow.open(map, marker);
+                    }
+                })(marker, i));
+            }
+        }
+        $(document).ready(function () {
+            $('#emp').keyup(function () {
+                var d = $("#emp").val();
+                
+                $.ajax({
+                    url:'/Admin/TrackEmpLocation',
+                    type: 'post',
+                    data:{data:d},
+                    success:function(result){
+                        $('#cars').html(result);
+                    }
+
+                })
+            })
+            $('#dt2').change(function () {
+                var d = $("#dt1").val();
+                var d1 = $("#dt2").val();
+                var name = $('#emp').val();
+                    $.ajax({
+                        type: "POST",
+                url: '/Admin/getlatlang',
+                data: { D1:d,D2:d1,Name:name },
+                        dataType: "json",
+                        processData: true,
+                        success: function (data) {
+                            locations = data;
+                            InitMap();
+
+                        }
+                    });
+            })
+        })
+</script>

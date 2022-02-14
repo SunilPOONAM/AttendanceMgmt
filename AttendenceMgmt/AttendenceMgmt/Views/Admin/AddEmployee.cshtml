@@ -1,0 +1,196 @@
+﻿@model AttendenceMgmt.Models.EmployeeDetails_tbl
+@{
+    ViewBag.Title = "AddEmployee";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<script src="~/Resources/js/jquery-3.4.1.min.js"></script>
+<h2>Add Employee</h2>
+
+<div class="row" style="margin-top:3%">    @using (Html.BeginForm("AddEmployee", "Admin", FormMethod.Post, new
+    {
+        enctype = "multipart/form-data"
+    }))
+{
+    <div class="col-md-4">
+        <label> Employee Name</label>
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="material-icons">person</i>
+            </span>
+            <div class="form-line">
+                @Html.TextBoxFor(model => model.Name, new { @placeholder = "", @class = "form-control ", @autocomplete = "off", Required = "true" })
+
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <label>Mobile Number</label>
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="material-icons">person</i>
+            </span>
+            <div class="form-line">
+                @Html.TextBoxFor(model => model.MobileNo, new { @placeholder = "", @class = "form-control ", @autocomplete = "off", Required = "true", onkeypress = "return cn(event)", @maxlength = "10", @minlength = "10" })
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <label>Email</label>
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="material-icons">person</i>
+            </span>
+            <div class="form-line">
+                @Html.TextBoxFor(model => model.Email, new { @placeholder = "", @class = "form-control ", @autocomplete = "off", Required = "true", @type = "email" })
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <label>Password</label>
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="material-icons">person</i>
+            </span>
+            <div class="form-line">
+                @Html.TextBoxFor(model => model.Password, new { @placeholder = "", @class = "form-control ", @autocomplete = "off", Required = "true" })
+            </div>
+        </div>
+    </div>
+
+    <div class="col-md-4">
+        <label>Department</label>
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="material-icons">person</i>
+            </span>
+            <div class="form-line">
+                @Html.DropDownListFor(model => model.Department, new List<SelectListItem>
+{
+    new SelectListItem{ Text="Select", Value = "" },
+
+
+}, new { @class = "form-control", Required = "true" })
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <label>Designation</label>
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="material-icons">person</i>
+            </span>
+            <div class="form-line">
+                @Html.DropDownListFor(model => model.Designation, new List<SelectListItem>
+{
+    new SelectListItem{ Text="Select", Value = "" },
+
+
+}, new { @class = "form-control", Required = "true" })
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <label>Shift</label>
+        <div class="input-group">
+            <span class="input-group-addon">
+                <i class="material-icons">person</i>
+            </span>
+            <div class="form-line">
+                @Html.DropDownListFor(model => model.Shift, new List<SelectListItem>
+{
+    new SelectListItem{ Text="Select", Value = "" },
+
+
+}, new { @class = "form-control", Required = "true" })
+            </div>
+        </div>
+    </div>
+    <div class="col-md-4">
+        <label></label>
+        <div class="input-group">
+            <input type="submit" class="form-control btn bg-in waves-effect" style="background-color:#333;color:white" value=" submit" id="Submitform">
+        </div>
+    </div>
+
+}</div>
+
+<script>
+    $(function () {
+        $('#Name').keydown(function (e) {
+            if (e.ctrlKey || e.altKey) {
+                e.preventDefault();
+            } else {
+                var key = e.keyCode;
+                if (!((key == 8) || (key == 9) || (key == 32) || (key == 46) || (key >= 35 && key <= 40) || (key >= 65 && key <= 90))) {
+                    e.preventDefault();
+                }
+            }
+        });
+    });
+    $('#Submitform').click(function () {
+        var Name = $('#Name').val();
+
+        //if (Name.indexOf(1) == " ")
+        if (/^([a-zA-Z]{2,}\s[a-zA-z]{1,}'?-?[a-zA-Z]{2,}\s?([a-zA-Z]{1,})?)/.test(Name)) {
+            return true;
+        }
+        else {
+            alert("Plzz Enter Full Name..")
+            return false;
+        }
+    });
+
+    function cn(evt) {
+        //alert("ok");
+        evt = (evt) ? evt : window.event;
+        var charcode = (evt.which) ? evt.which : evt.keycode;
+        if (charcode != 46 && charcode > 31 && (charcode < 48 || charcode > 57))
+
+            return false;
+        return true;
+    }
+
+    // For Dropdown Value
+    $(document).ready(function () {
+      //  alert("okk");
+        $.ajax({
+            url: "/Admin/GetDepartment",
+            method: "get",
+            data: {},
+            success: function (result) {
+                var n = result.length
+                $.each(result, function (i) {
+                   // alert(result[i]['Name']);
+                    $("#Department").append($("<option></option>").val(result[i]['value']).html(result[i]['text']));
+                });
+
+            }
+        })
+            $.ajax({
+                url: "/Admin/GetDesignation",
+                method: "get",
+                data: {  },
+                success: function (result) {
+                    var n = result.length
+                    $.each(result, function (i) {
+                        $("#Designation").append($("<option></option>").val(result[i]['value']).html(result[i]['text']));
+
+
+                    });
+                }
+            })
+        })
+            $.ajax({
+                url: "/Admin/GetShift",
+                method: "get",
+                data: {},
+                success: function (result) {
+                    var n = result.length
+                    $.each(result, function (i) {
+
+                        $("#Shift").append($("<option></option>").val(result[i]['value']).html(result[i]['text']));
+
+                    });     }   })
+        
+</script>

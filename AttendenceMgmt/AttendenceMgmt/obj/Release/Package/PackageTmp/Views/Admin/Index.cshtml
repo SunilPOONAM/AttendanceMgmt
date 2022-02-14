@@ -1,0 +1,93 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/AdminLayout.cshtml";
+}
+<script src="~/Resources/js/jquery-3.4.1.min.js"></script>
+<div class="container-fluid">
+    <div class="block-header">
+        <h2>DASHBOARD</h2>
+    </div>
+
+    <!-- Widgets -->
+    <div class="row clearfix">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+
+
+            <a href="/Admin/AddEmployee">
+                <div class="info-box bg-pink hover-expand-effect">
+                    <div class="icon">
+                        <span class="blks"><img src="~/Resources/images/user.png" /></span>
+                    </div>
+                    <div class="content">
+                        <div class="text">Add Employee</div>
+                        @*<div class="number count-to" data-from="0" data-to="125" data-speed="15" data-fresh-interval="20"></div>*@
+                    </div>
+                </div>
+
+            </a>
+
+        </div>
+        <a href="/Admin/Department">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box bg-yellow hover-expand-effect">
+                    <div class="icon">
+                        <span class="blks"><img src="~/Resources/images/user.png" /></span>
+                    </div>
+                    <div class="content">
+                        <div class="text">Add Department</div>
+                        @*<div class="number count-to" data-from="0" data-to="125" data-speed="15" data-fresh-interval="20"></div>*@
+                    </div>
+                </div>
+            </div>
+        </a>
+
+        <a href="/Admin/Designation">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+                <div class="info-box bg-grey hover-expand-effect">
+                    <div class="icon">
+                        <span class="blks"><img src="~/Resources/images/user.png" /></span>
+                    </div>
+                    <div class="content">
+                        <div class="text">Add Designation</div>
+                        @*<div class="number count-to" data-from="0" data-to="125" data-speed="15" data-fresh-interval="20"></div>*@
+                    </div>
+                </div>
+                </div>
+
+</a>
+    </div>
+    <a href="/Admin/Shift">
+        <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+            <div class="info-box bg-green hover-expand-effect">
+                <div class="icon">
+                    <span class="blks"><img src="~/Resources/images/user.png" /></span>
+                </div>
+                <div class="content">
+                    <div class="text">Add Shift</div>
+                    @*<div class="number count-to" data-from="0" data-to="125" data-speed="15" data-fresh-interval="20"></div>*@
+                </div>
+            </div>
+            </div>
+</a>
+  
+    <!-- #END# Widgets -->
+    <!-- #END# CPU Usage -->
+
+
+
+<a href="/Admin/Employee_Reports">
+    <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12">
+        <div class="info-box bg-black hover-expand-effect">
+            <div class="icon">
+                <span class="blks"><img src="~/Resources/images/user.png" /></span>
+            </div>
+            <div class="content">
+                <div class="text">Employee Reports</div>
+                @*<div class="number count-to" data-from="0" data-to="125" data-speed="15" data-fresh-interval="20"></div>*@
+            </div>
+        </div>
+    </div>
+</a>
+
+

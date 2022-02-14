@@ -1,0 +1,110 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="AttendenceMgmtModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="CompanyRegistration_tbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="CompanyName" Type="varchar" MaxLength="100" />
+    <Property Name="MobileNo" Type="varchar" MaxLength="50" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
+    <Property Name="Password" Type="varchar" MaxLength="50" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+  <EntityType Name="DailyAttendence_tbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="EmployeeId" Type="varchar" MaxLength="50" />
+    <Property Name="TimeIn" Type="time" Precision="7" />
+    <Property Name="TimeInImage" Type="varchar(max)" />
+    <Property Name="TimeOut" Type="time" Precision="7" />
+    <Property Name="TimeOutImage" Type="varchar(max)" />
+    <Property Name="Lat" Type="varchar" MaxLength="50" />
+    <Property Name="Long" Type="varchar" MaxLength="50" />
+    <Property Name="Accuracy" Type="varchar(max)" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+  <EntityType Name="Department_Master_tbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Department" Type="varchar" MaxLength="200" />
+    <Property Name="CompanyName" Type="varchar" MaxLength="200" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+  <EntityType Name="Designation_Master_tbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Designation" Type="varchar" MaxLength="200" />
+    <Property Name="CompanyName" Type="varchar" MaxLength="200" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+  <EntityType Name="EmployeeDetails_tbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="varchar" MaxLength="50" />
+    <Property Name="MobileNo" Type="varchar" MaxLength="50" />
+    <Property Name="Email" Type="varchar" MaxLength="100" />
+    <Property Name="Password" Type="varchar" MaxLength="50" />
+    <Property Name="Department" Type="varchar" MaxLength="50" />
+    <Property Name="Designation" Type="varchar" MaxLength="50" />
+    <Property Name="Shift" Type="varchar" MaxLength="50" />
+    <Property Name="Status" Type="bit" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="Company_Name" Type="varchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="EmployeeTrack_tbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserID" Type="varchar" MaxLength="50" />
+    <Property Name="Lat" Type="varchar(max)" />
+    <Property Name="Long" Type="varchar(max)" />
+    <Property Name="LatLongTime" Type="time" Precision="7" />
+    <Property Name="CurrentTimeInMilies" Type="varchar" MaxLength="50" />
+    <Property Name="CheckInImage" Type="varchar(max)" />
+    <Property Name="CheckOutImage" Type="varchar(max)" />
+    <Property Name="Date" Type="datetime" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+  <EntityType Name="Shift_Master_tbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Shift" Type="varchar" MaxLength="200" />
+    <Property Name="CompanyName" Type="varchar" MaxLength="200" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+  <EntityType Name="SignIn_tbl">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="UserName" Type="varchar" MaxLength="50" />
+    <Property Name="Usertype" Type="varchar" MaxLength="50" />
+    <Property Name="Department" Type="varchar" MaxLength="50" />
+    <Property Name="Password" Type="varchar" MaxLength="50" />
+    <Property Name="Status" Type="bit" />
+  </EntityType>
+  <EntityContainer Name="AttendenceMgmtModelStoreContainer">
+    <EntitySet Name="CompanyRegistration_tbl" EntityType="Self.CompanyRegistration_tbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="DailyAttendence_tbl" EntityType="Self.DailyAttendence_tbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Department_Master_tbl" EntityType="Self.Department_Master_tbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Designation_Master_tbl" EntityType="Self.Designation_Master_tbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EmployeeDetails_tbl" EntityType="Self.EmployeeDetails_tbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="EmployeeTrack_tbl" EntityType="Self.EmployeeTrack_tbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Shift_Master_tbl" EntityType="Self.Shift_Master_tbl" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="SignIn_tbl" EntityType="Self.SignIn_tbl" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>

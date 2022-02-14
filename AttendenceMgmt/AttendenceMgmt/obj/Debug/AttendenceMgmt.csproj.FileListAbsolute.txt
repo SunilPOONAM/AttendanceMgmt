@@ -1,0 +1,167 @@
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\AttendenceMgmt.dll.config
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\AttendenceMgmt.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\AttendenceMgmt.pdb
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Antlr3.Runtime.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\EntityFramework.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\EntityFramework.SqlServer.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.Core.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.Owin.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Cookies.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Facebook.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Google.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.OAuth.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Twitter.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Web.Infrastructure.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Newtonsoft.Json.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Owin.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Helpers.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Mvc.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Optimization.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Razor.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.Deployment.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.Razor.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\WebGrease.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Helpers.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Mvc.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Optimization.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Razor.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.Deployment.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.Razor.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Newtonsoft.Json.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Antlr3.Runtime.pdb
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\EntityFramework.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\EntityFramework.SqlServer.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.Core.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.Owin.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Facebook.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Cookies.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.OAuth.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Google.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Twitter.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\obj\Debug\AttendenceMgmt.csprojResolveAssemblyReference.cache
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\obj\Debug\AttendenceMgmt.dll
+c:\users\sunil\documents\visual studio 2013\Projects\AttendenceMgmt\AttendenceMgmt\obj\Debug\AttendenceMgmt.pdb
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\AttendenceMgmt.dll.config
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\AttendenceMgmt.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\AttendenceMgmt.pdb
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Antlr3.Runtime.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\EntityFramework.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\EntityFramework.SqlServer.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.Core.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Cookies.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Facebook.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Google.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.OAuth.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Twitter.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Web.Infrastructure.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Newtonsoft.Json.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Owin.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Helpers.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Mvc.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Optimization.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Razor.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.Deployment.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.Razor.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\WebGrease.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Helpers.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Mvc.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Optimization.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Razor.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.Deployment.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.Razor.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Newtonsoft.Json.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Antlr3.Runtime.pdb
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\EntityFramework.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\EntityFramework.SqlServer.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.Core.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Facebook.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Cookies.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.OAuth.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Google.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Twitter.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\obj\Debug\AttendenceMgmt.csprojResolveAssemblyReference.cache
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\obj\Debug\AttendenceMgmt.dll
+D:\Poonam Yadav\TCS Projects\AttendenceMgmt\AttendenceMgmt\obj\Debug\AttendenceMgmt.pdb
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\AttendenceMgmt.dll.config
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\AttendenceMgmt.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\AttendenceMgmt.pdb
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Antlr3.Runtime.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\EntityFramework.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\EntityFramework.SqlServer.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.Core.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.Owin.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Host.SystemWeb.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Cookies.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Facebook.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Google.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.MicrosoftAccount.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.OAuth.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Twitter.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Web.Infrastructure.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Newtonsoft.Json.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Owin.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Helpers.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Mvc.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Optimization.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Razor.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.Deployment.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.Razor.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\WebGrease.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Helpers.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Mvc.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Optimization.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\System.Web.Razor.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.Deployment.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\System.Web.WebPages.Razor.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Newtonsoft.Json.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Antlr3.Runtime.pdb
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\EntityFramework.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\EntityFramework.SqlServer.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.Core.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.Owin.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.AspNet.Identity.EntityFramework.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Host.SystemWeb.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Facebook.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Cookies.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.OAuth.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Google.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.Twitter.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\obj\Debug\AttendenceMgmt.dll
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\obj\Debug\AttendenceMgmt.pdb
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\obj\Debug\AttendenceMgmt.csproj.AssemblyReference.cache
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\obj\Debug\AttendenceMgmt.csproj.CoreCompileInputs.cache
+D:\TCS Project\AttendenceMgmt\AttendenceMgmt\obj\Debug\AttendenceMgmt.csproj.CopyComplete

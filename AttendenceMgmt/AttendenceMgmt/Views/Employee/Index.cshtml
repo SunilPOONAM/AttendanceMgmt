@@ -1,0 +1,122 @@
+﻿
+@model AttendenceMgmt.Models.DailyAttendence_tbl
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/HeadLayout.cshtml";
+}
+
+<div>
+
+        <input type="hidden" value="@Session["UserName"]" id="lblUser" />
+        <input type="hidden" value="@Session["Department"]" id="Departmentss" />
+    </div>
+
+<script src="~/Resources/js/jquery-3.4.1.min.js"></script>
+<h2>Attendance Report</h2>
+@using AttendenceMgmt.Controllers;
+@using System.Data;
+@using AttendenceMgmt.Models;
+<div class="body">
+    @*<span>Search by Date</span><span>from:</span><input type="date" id="DT1" value=" " /><span>To:</span><input type="date" id="DT2" value=" " />*@
+   <div class="row"><h4>Search by Date:--</h4>
+<div class="col-md-4">
+    <label>From:</label>
+    <div class="input-group">
+        <span class="input-group-addon">
+            <i class="material-icons">person</i>
+        </span>
+        <div class="form-line">
+
+            <input type="date" id="DT1" value=" " class="form-control " />
+        </div>
+    </div>
+</div>
+<div class="col-md-4">
+    <label>To:</label>
+    <div class="input-group">
+        <span class="input-group-addon">
+            <i class="material-icons">person</i>
+        </span>
+        <div class="form-line">
+            <input type="date" id="DT2" value=" " class="form-control " />
+        </div>
+    </div>
+</div></div>
+    <div class="row" style="margin-top:2%">
+        <div class="table-responsive">
+            <table class="table table-bordered table-striped table-hover js-basic-example dataTable">
+                <thead>
+                    <tr>
+                        <th>Sr. No</th>
+                        <th>Department</th>
+                        <th> Employee Name</th>
+                        <th>TimeIn</th>
+                        <th>TimeOut</th>
+                        <th>TimeOutImage</th>
+
+                    </tr>
+                </thead>
+                <tbody id="bdy">
+                    @{
+                 // var dept=@Session["Department"].ToString();
+                    DbManager db = new DbManager();
+                    AdminController cn = new AdminController();
+                    DataTable dttt = db.GetDailyAtteData(Session["Department"].ToString());
+                    if (dttt.Rows.Count > 0)
+                    {
+                        int j = 0;
+                        for (int i = 0; dttt.Rows.Count > i; i++)
+                        {
+                           // cn.SaveImage(dttt.Rows[i]["TimeOutImage"] + "");
+                            j++;
+                            <tr class="hid"><td>@j</td><td>@dttt.Rows[i]["Department"]</td><td>@dttt.Rows[i]["Name"]</td><td>@dttt.Rows[i]["TimeIn"]</td><td>@dttt.Rows[i]["TimeOut"]</td><td><img src="https://attendance.technocraftsolution.in/Content/UploadedFiles/@dttt.Rows[i]["TimeOutImage"].ToString()" height="50px" width="50px" class="img img-circle" /></td></tr>
+
+                        }
+                    }
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<script src="~/Resources/plugins/jquery/jquery.min.js"></script>
+<script src="~/Resources/plugins/jquery-datatable/jquery.dataTables.js"></script>
+<script src="~/Resources/plugins/jquery-datatable/skin/bootstrap/js/dataTables.bootstrap.js"></script>
+<script src="~/Resources/plugins/jquery-datatable/extensions/export/dataTables.buttons.min.js"></script>
+<script src="~/Resources/plugins/jquery-datatable/extensions/export/buttons.flash.min.js"></script>
+<script src="~/Resources/plugins/jquery-datatable/extensions/export/jszip.min.js"></script>
+<script src="~/Resources/plugins/jquery-datatable/extensions/export/pdfmake.min.js"></script>
+<script src="~/Resources/plugins/jquery-datatable/extensions/export/vfs_fonts.js"></script>
+<script src="~/Resources/plugins/jquery-datatable/extensions/export/buttons.html5.min.js"></script>
+<script src="~/Resources/plugins/jquery-datatable/extensions/export/buttons.print.min.js"></script>
+<script src="~/Resources/js/pages/tables/jquery-datatable.js"></script>
+<!-- Demo Js -->
+
+<script type="text/javascript">
+    $(document).ready(function () {
+        //var department = $('#Departmentss').val();
+        //$.ajax({
+        //    url: "/Employee/GetAttendanceData",
+        //    method: "get",
+        //    data: { department: department },
+        //    success: function (result) {
+        //        $('#bdy').html(result);
+        //    }
+        //})
+
+        $('#DT2').change(function () {
+            var department = $('#Departmentss').val();
+            var d1=$('#DT1').val();
+            var d2 = $('#DT2').val();
+            $.ajax({
+                url: "/Employee/GetFiiterEmpData",
+                method: "get",
+                data: { department: department,Dt1:d1,Dt2:d2},
+                success: function (result) {
+                    $('#bdy').html(result);
+                }
+            })
+        })
+    })
+   
+</script>
